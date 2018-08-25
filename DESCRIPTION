@@ -1,4 +1,4 @@
-Package: PVcharacteristic
+Package: PhotoVoltaicsChar
 Type: Package
 Title: Current-voltage characteristics
 Version: 0.1.0
