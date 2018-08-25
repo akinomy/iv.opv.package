@@ -19,7 +19,7 @@ voltage	series1
 ```r
 iv.summary(data_dir, output_dir, pattern = "pixel")
 ```
-4. The output contained "Summary_efficiency.dat" saved in output_dir file. The file with calculated parameters. 
+4. The output contained "Summary_efficiency.dat" saved in ```output_dir file```. The file with calculated parameters. 
 
 ```r
                          data//S2500_og1_pixe1_01.dat data//S2500_og1_pixe2_01.dat data//S2500_og1_pixe3_01.dat
