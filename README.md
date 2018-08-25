@@ -1,10 +1,10 @@
 ### Current-voltage analysis
 Functions used to analyse current-voltage (i-v) characteristic of organic solar cells. 
 
-The main function iv.summary(data_dir, output_dir, pattern = "") analyses all matching files containing i-v characteristics and calculates the solar cells parameters (Isc, Voc, FF, efficiency, resistivity)
+The main function ```iv.summary(data_dir, output_dir, pattern = "")``` analyses all matching files containing i-v characteristics and calculates the solar cells parameters (Isc, Voc, FF, efficiency, resistivity)
 
 #### Example
-Example of using iv.summary(data_dir, output_dir, pattern = "") function.
+Example of using ```iv.summary(data_dir, output_dir, pattern = "")``` function.
 
 1. The collected current-voltage characteristic is saved in .dat format. The file contains two columns (voltage, series1). 
 ```r
@@ -15,7 +15,7 @@ voltage	series1
 0.083	-0.2205034
 ````
 2. Group of i-v characteristics are saved in one folder e.g. (data_dir) and have common names' pattern (e.g. "pixel", "device", ...) 
-3. Run the iv.summary(data_dir, output_dir, pattern = "")
+3. Run the ```iv.summary(data_dir, output_dir, pattern = "")```
 ```r
 iv.summary(data_dir, output_dir, pattern = "pixel")
 ```
@@ -30,6 +30,6 @@ P_max (mW/cm^2)                    1.0138385                    1.1773867       
 Efficiency (%)                     1.0138385                    1.1773867                    0.9004739
 r_s                               15.6381889                   14.0442675                   17.4861618
 ```
-5. Additionally, in catalog output_dir/fig there are plots of current-voltage characteristics.
+5. Additionally, in catalog ```output_dir/fig``` there are plots of current-voltage characteristics.
 
 
