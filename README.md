@@ -1,3 +1,7 @@
+### Install package
+library(devtools)
+install_github('akinomy/PhotoVoltaicsChar')
+
 ### Current-voltage analysis
 Functions used to analyse current-voltage (i-v) characteristic of organic solar cells. 
 
