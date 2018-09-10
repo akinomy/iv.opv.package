@@ -1,6 +1,8 @@
 ### Install package
+```r
 library(devtools)
 install_github('akinomy/PhotoVoltaicsChar')
+```
 
 ### Current-voltage analysis
 Functions used to analyse current-voltage (i-v) characteristic of organic solar cells. 
@@ -10,7 +12,7 @@ The main function ```iv.summary(data_dir, output_dir, pattern = "")``` analyses 
 #### Example
 Example of using ```iv.summary(data_dir, output_dir, pattern = "")``` function.
 
-1. The collected current-voltage characteristic is saved in .dat format. The file contains two columns (voltage, series1). 
+1. The collected current-voltage characteristic is saved in `.dat` format. The file contains two columns (voltage, series1). 
 ```r
 voltage	series1	
 0	-0.2299582
@@ -18,7 +20,7 @@ voltage	series1
 0.055	-0.2240239
 0.083	-0.2205034
 ````
-2. Group of i-v characteristics are saved in one folder e.g. (data_dir) and have common names' pattern (e.g. "pixel", "device", ...) 
+2. Group of i-v characteristics are saved in one folder e.g. (`data_dir`) and have common names' pattern (e.g. `"pixel"`, `"device"`, ...) 
 3. Run the ```iv.summary(data_dir, output_dir, pattern = "")```
 ```r
 iv.summary(data_dir, output_dir, pattern = "pixel")
